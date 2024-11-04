@@ -1,0 +1,17 @@
+[
+  {
+    "label": "For Rent",
+    "value": "Rent",
+    "isDefault": true
+  },
+  {
+    "label": "For Buy",
+    "value": "Buy",
+    "isDefault": false
+  },
+  {
+    "label": "Sold",
+    "value": "Sold",
+    "isDefault": false
+  }
+]

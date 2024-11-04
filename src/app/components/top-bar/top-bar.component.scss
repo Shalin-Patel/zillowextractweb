@@ -1,0 +1,56 @@
+.header{
+  .headerNavigation{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100%;
+    position: static;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    border: none;
+    padding-right: 24px;
+    z-index: 1;
+    overflow: visible;
+    .btnHamburgerBox{
+      position: absolute;
+      left: 56%;
+      height: 80px;
+      transform: translate(-50%, 0px);
+      border: none;
+      transition: left 0.15s ease-out, height 0.15s ease-out, width 0.15s ease-out, margin-top 0.15s ease-out;
+    }
+    .nav-linksbx{
+      display: flex;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      flex-direction: row;
+      height: 100%;
+      position: static;
+      width: 100%;
+      margin: auto;
+      border: none;
+      padding-right: 24px;
+      z-index: 1;
+      overflow: visible;
+    }
+    .mainMenuLeft{
+      display: flex;
+      list-style: none;
+      margin-inline: 0;
+      padding-inline: 0;
+      margin-block: 0;
+      padding: 0;
+      margin: 0;
+    }
+    .mainMenuRight{
+      display: flex;
+      margin-left:auto;
+    }
+    .help_signinList{
+      display: flex;
+      list-style: none;
+    }
+  }
+}

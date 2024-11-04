@@ -1,0 +1,177 @@
+<section id="filter">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-auto">
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Search by Zip Codes">
+      </div>
+      <div class="col-auto">
+        <div class="d-inline-block" ngbDropdown #myDrop="ngbDropdown">
+          <button type="button" class="btn btn-outline-primary me-2" id="dropdownManual" ngbDropdownAnchor (focus)="myDrop.open()">
+            {{ this.filterPropertyType.label }}
+          </button>
+          <div ngbDropdownMenu aria-labelledby="dropdownManual">
+            @for (option of this.propertyTypeOptions; track option) {
+              <button ngbDropdownItem (click)="this.filterPropertyType=option">{{ option.label }}</button>
+            }
+          </div>
+        </div>
+      </div>
+        <div class="col-auto">
+            <div class="d-inline-block" ngbDropdown #myDrop="ngbDropdown">
+                <button type="button" class="btn btn-outline-primary me-2" id="dropdownManual" ngbDropdownAnchor (focus)="myDrop.open()">
+                    {{ this.filterPropertyType.label }}
+                </button>
+                <div ngbDropdownMenu aria-labelledby="dropdownManual">
+                    @for (option of this.propertyTypeOptions; track option) {
+                        <button ngbDropdownItem (click)="this.filterPropertyType=option">{{ option.label }}</button>
+                    }
+                </div>
+            </div>
+
+        </div>
+        <div class="col-auto">
+            <div class="d-inline-block" ngbDropdown #myDrop="ngbDropdown">
+                <button type="button" class="btn btn-outline-primary me-2" id="dropdownManual" ngbDropdownAnchor (focus)="myDrop.open()">
+                    {{ this.filterPropertyType.label }}
+                </button>
+                <div ngbDropdownMenu aria-labelledby="dropdownManual">
+                    @for (option of this.propertyTypeOptions; track option) {
+                        <button ngbDropdownItem (click)="this.filterPropertyType=option">{{ option.label }}</button>
+                    }
+                </div>
+            </div>
+
+        </div>
+        <div class="col-auto">
+            <div class="d-inline-block" ngbDropdown #myDrop="ngbDropdown">
+                <button type="button" class="btn btn-outline-primary me-2" id="dropdownManual" ngbDropdownAnchor (focus)="myDrop.open()">
+                    {{ this.filterPropertyType.label }}
+                </button>
+                <div ngbDropdownMenu aria-labelledby="dropdownManual">
+                    @for (option of this.propertyTypeOptions; track option) {
+                        <button ngbDropdownItem (click)="this.filterPropertyType=option">{{ option.label }}</button>
+                    }
+                </div>
+            </div>
+
+        </div>
+        <div class="col-auto">
+            <div class="d-inline-block" ngbDropdown #myDrop="ngbDropdown">
+                <button type="button" class="btn btn-outline-primary me-2" id="dropdownManual" ngbDropdownAnchor (focus)="myDrop.open()">
+                    {{ this.filterPropertyType.label }}
+                </button>
+                <div ngbDropdownMenu aria-labelledby="dropdownManual">
+                    @for (option of this.propertyTypeOptions; track option) {
+                        <button ngbDropdownItem (click)="this.filterPropertyType=option">{{ option.label }}</button>
+                    }
+                </div>
+            </div>
+
+        </div>
+    </div><!--Row-->
+  </div>
+</section>
+<section class="twoColSec">
+  <div class="container-fluid">
+    <div class="row">
+      <div class=" col-lg-7 col-md-6 col-sm-12 col-12">
+        <div class="map"></div>
+      </div>
+      <div class="col-lg-5 col-md-6 col-sm-12 col-12">
+        <div class="TitleBox">
+          <h3>Real Estate & Homes For Sale</h3>
+          <div class="searchResultl">
+            <span class="searchResultTitle">56,894 results</span>
+            <button data-test="sort-popover-dropdown-button" aria-label="Sort options, Homes for You selected" aria-expanded="false" id="sort-popover"
+                    class="sortDropDownBtn" aria-haspopup="menu">
+              Sort: Homes for You
+              <span class="shortingBwqRdm">
+                  <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false" role="img" class="Icon-c11n-8-105-0__sc-13llmml-0 iEDWpX">
+                    <path stroke="none" d="M29.7 8.8a1 1 0 00-1.4 0L16 21 3.7 8.8a1 1 0 00-1.4 0 1 1 0 000 1.4l13 13a1 1 0 001.4 0l13-13a1 1 0 000-1.4z"></path>
+                  </svg>
+                </span>
+            </button>
+          </div>
+        </div><!--TitleBox-->
+        <div class="houseListedSec">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+              <div class=" ListedHouseColbx">
+                <div class="houseImg">
+                  <img src="https://photos.zillowstatic.com/fp/6aa267583c881ff7ba3bf77183d49e2a-p_e.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="houselistedCnt">
+                  <span class="listedHousePrice">$349,900</span>
+                  <div class="StyledPropertyCardDataArea-c11n-8-105-0__sc-10i1r6-0 cCMTdc">
+                    <ul class="HomeDetailsList">
+                      <li><b>3</b> <abbr>bds</abbr></li>
+                      <li><b>3</b> <abbr>ba</abbr></li>
+                      <li><b>1,750</b> <abbr>sqft</abbr></li>
+                    </ul>
+                    - House for sale
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+              <div class="ListedHouseColbx">
+                <div class="houseImg">
+                  <img src="https://photos.zillowstatic.com/fp/6aa267583c881ff7ba3bf77183d49e2a-p_e.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="houselistedCnt">
+                  <span class="listedHousePrice">$349,900</span>
+                  <div class="StyledPropertyCardDataArea-c11n-8-105-0__sc-10i1r6-0 cCMTdc">
+                    <ul class="HomeDetailsList">
+                      <li><b>3</b> <abbr>bds</abbr></li>
+                      <li><b>3</b> <abbr>ba</abbr></li>
+                      <li><b>1,750</b> <abbr>sqft</abbr></li>
+                    </ul>
+                    - House for sale
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                  <div class="ListedHouseColbx">
+                      <div class="houseImg">
+                          <img src="https://photos.zillowstatic.com/fp/6aa267583c881ff7ba3bf77183d49e2a-p_e.jpg" alt="" class="img-fluid">
+                          <div class="ImgThreeButtonTag">
+                              <div class="PropertyCardBadge">
+                                  <span class="imgUpdateLabel">Updated today</span>
+                                  <span class="imgAvailbleUnitLabel">13 available units</span>
+                              </div>
+                              <div class="saveButtonIcontxt">
+                                  <button aria-disabled="false" aria-label="Save" type="button" class="StyledPropertyCardSaveButton" data-test="property-card-save">
+                                      <span class="ButtonIconSave">
+                                          <svg viewBox="0 0 24 22"><title>Save this home</title>
+                                              <path class="HeartIcon__fill" d="M17.3996 6.17511e-05C15.5119 0.00908657 13.7078 0.779206 12.3955 2.13608L11.9995 2.54408L11.6035 2.13608C10.2912 0.779206 8.48708 0.00908657 6.59946 6.17511e-05C5.15317 -0.00630912 3.7479 0.480456 2.61543 1.38007C1.08163 2.60976 0.137114 4.42893 0.0137749 6.39093C-0.109564 8.35294 0.5997 10.2761 1.96743 11.6882L2.51943 12.2522L11.3995 21.3482C11.5575 21.5095 11.7738 21.6004 11.9995 21.6004C12.2253 21.6004 12.4415 21.5095 12.5995 21.3482L21.4796 12.2522L22.0316 11.6882C23.3993 10.2761 24.1086 8.35294 23.9852 6.39093C23.8619 4.42893 22.9174 2.60976 21.3836 1.38007C20.2511 0.480456 18.8458 -0.00630912 17.3996 6.17511e-05Z"></path>
+                                              <path class="HeartIcon__outline" d="M12.3955 2.13608C13.7078 0.779206 15.5119 0.00908657 17.3996 6.17511e-05C18.8458 -0.00630912 20.2511 0.480456 21.3836 1.38007C22.9174 2.60976 23.8619 4.42893 23.9852 6.39093C24.1086 8.35294 23.3993 10.2761 22.0316 11.6882L21.4796 12.2522L12.5995 21.3482C12.4415 21.5095 12.2253 21.6004 11.9995 21.6004C11.7738 21.6004 11.5575 21.5095 11.3995 21.3482L2.51943 12.2522L1.96743 11.6882C0.5997 10.2761 -0.109564 8.35294 0.0137748 6.39093C0.137114 4.42893 1.08163 2.60976 2.61543 1.38007C3.7479 0.480456 5.15317 -0.00630912 6.59946 6.17511e-05C8.48708 0.00908657 10.2912 0.779206 11.6035 2.13608L11.9995 2.54408L12.3955 2.13608ZM19.8956 3.25208C19.1854 2.69122 18.3045 2.39053 17.3996 2.40008C16.1576 2.41525 14.9717 2.91978 14.0995 3.80409L13.7155 4.21209L12.4315 5.5321C12.1927 5.77011 11.8063 5.77011 11.5675 5.5321L10.2835 4.21209L9.8995 3.80409C9.0273 2.91978 7.84145 2.41525 6.59947 2.40008C5.69165 2.39734 4.81045 2.70661 4.10345 3.27608C3.09352 4.06928 2.47292 5.25804 2.39944 6.54011C2.31914 7.81608 2.78104 9.06669 3.67145 9.98414L4.22345 10.5601L11.9995 18.5162L19.8476 10.5601L20.3996 9.98414C21.2638 9.05458 21.6991 7.80545 21.5996 6.54011C21.5329 5.2495 20.9116 4.05071 19.8956 3.25208Z"></path>
+                                          </svg>
+                                      </span>
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="houselistedCnt">
+                          <div class="StyledPropertyCardDataArea">
+                              <div class="PropertyCardWrapper">
+                                  <span data-test="property-card-price" class="listedHousePrice">$4,295+ 2 bds</span>
+                              </div>
+                          </div>
+                          <div class="StyledPropertyCardDataAreaBox">
+                              <a href="/apartments/chatham-nj/the-ivy/CcPD8k/#bedrooms-2" class="Anchor-c11n">
+                                  <div class="StyledCard">
+                                      <span class="listedHousePrice">$4,295+</span>
+                                      <span class="PropertyCardInventoryBedText">2 bd</span>
+                                  </div>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div><!--row-->
+        </div>
+      </div>
+    </div><!--row-->
+  </div>
+</section>
