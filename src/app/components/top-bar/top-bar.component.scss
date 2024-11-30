@@ -1,5 +1,163 @@
-.header{
+header{
+  ul {
+    li{
+      list-style: none;
+    }
+  }
+  svg:not(:root) {
+    overflow: hidden;
+  }
   .headerNavigation{
+    .regLogin{
+
+    }
+  }
+  .hrNwIz a[data-display-my-zillow="true"] {
+    display: none;
+  }
+  .eSenDS {
+    display: block;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    border-bottom: 1px solid rgb(209, 209, 213);
+  }
+  .euoiVy {
+    width: 24px;
+    height: 24px;
+  }
+  .cArZQg > li:nth-of-type(2) {
+    border-bottom: none;
+    display: none !important;
+  }
+  .euoiVy {
+    width: 24px;
+    height: 24px;
+  }
+  .iaJNFF {
+    height: 60px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    padding: 0px 16px;
+    z-index: 2;
+  }
+  .cArZQg > li:first-of-type {
+    border: none !important;
+  }
+  .pfs__sc-1elvxkv-1 .pfs__sc-1dpbk03-0{
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 16px;
+    position: relative;
+    color: rgb(42, 42, 51);
+    cursor: pointer;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .pfs__thqlz5-0[data-display-agent="false"] {
+    margin-left: auto;
+
+  }
+  .kCGanX {
+    list-style: none;
+    margin-inline: 0px;
+    padding-inline: 0px;
+    margin-block: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Open Sans", "Adjusted Arial", Tahoma, Geneva, sans-serif;
+  }
+  .pfs__sc-1ve4drk-0 {
+    max-width: 100%;
+  }
+  .gSaOWc ul {
+    padding: 0px;
+    list-style-type: none;
+    list-style-position: outside;
+  }
+  .MtKQu li {
+    line-height: 40px;
+  }
+  .BzMht a {
+    cursor: pointer;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(13, 69, 153);
+  }
+  .gBaTsW span:not(.pfs__sc-1s7ry6y-0) {
+    overflow: hidden;
+    flex: 1 1 auto;
+    text-overflow: ellipsis;
+  }
+  .pfs__sc-1elvxkv-2 .pfs__xukzw9-0 {
+    position: absolute;
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    top: 80px;
+    margin-top: -1px;
+    background-color: white;
+    transition: opacity 0.5s, visibility;
+    border-bottom: 1px solid rgb(209, 209, 213);
+  }
+  .pfs__sc-1elvxkv-2 > li:hover .pfs__xukzw9-0, .pfs__sc-1elvxkv-2 > li:focus .pfs__xukzw9-0 {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.1s 0.4s, visibility 0.1s;
+  }
+  .pfs__sc-1elvxkv-2 .pfs__xukzw9-1{
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+    padding: 0px 24px;
+    width: 100%;
+    background-color: white;
+  }
+  .pfs__sc-1wickoz-0 .pfs__xukzw9-2 > li {
+    margin: 25px 28px 24px 0px;
+    padding-top: 0px;
+    padding-left: 28px;
+    border-left: 1px solid rgb(209, 209, 213);
+  }
+  .pfs__sc-1elvxkv-2 {
+    li#manage-rentals {
+      li {
+        a {
+          display: flex;
+          flex-direction: row;
+          font-size: 14px;
+          width: 100%;
+          outline: none;
+          box-shadow: none;
+          list-style: none;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+}
+
+
+
+@media (min-width: 890px) {
+   .sub-menu {
+    border-bottom: 1px solid rgb(209, 209, 213);
+    position: static;
+    background-color: white;
+  }
+  .sub-menu {
+    display: none;
+  }
+  .hamburger { display: none;
+  }
+  .pfs__sc-1psx3f8-0 {
+    display: none;
+  }
+  .pfs__sc-1ve4drk-0{
     display: flex;
     -webkit-box-pack: justify;
     justify-content: space-between;
@@ -7,50 +165,98 @@
     height: 100%;
     position: static;
     width: 100%;
-    max-width: 100%;
+    max-width: 1280px;
     margin: auto;
     border: none;
     padding-right: 24px;
     z-index: 1;
     overflow: visible;
-    .btnHamburgerBox{
-      position: absolute;
-      left: 56%;
-      height: 80px;
-      transform: translate(-50%, 0px);
-      border: none;
-      transition: left 0.15s ease-out, height 0.15s ease-out, width 0.15s ease-out, margin-top 0.15s ease-out;
-    }
-    .nav-linksbx{
-      display: flex;
-      -webkit-box-pack: justify;
-      justify-content: space-between;
-      flex-direction: row;
-      height: 100%;
-      position: static;
-      width: 100%;
-      margin: auto;
-      border: none;
-      padding-right: 24px;
-      z-index: 1;
-      overflow: visible;
-    }
-    .mainMenuLeft{
-      display: flex;
-      list-style: none;
-      margin-inline: 0;
-      padding-inline: 0;
-      margin-block: 0;
-      padding: 0;
-      margin: 0;
-    }
-    .mainMenuRight{
-      display: flex;
-      margin-left:auto;
-    }
-    .help_signinList{
-      display: flex;
-      list-style: none;
-    }
+
+  }
+  .pfs__j60ma-1 {
+    display: inline-block;
+    width: 160px;
+    height: 35px;
+  }
+  .pfs__j60ma-2 {
+    display: none;
+  }
+  .pfs__sc-1ve4drk-0 > ul > li {
+    display: inline-block;
+    line-height: 80px;
+  }
+  svg.Icon-c11n-8-100-6__sc-13llmml-0.jlRhlp {
+     display: none;
+   }
+  span.VisuallyHidden-c11n-8-100-6__sc-t8tewe-0.iYHcPE {
+    display: none;
+  }
+  .header .pfs__sc-1etb9mm-2 {
+    display: none;
+  }
+  .pfs__sc-7lof6w-0.iaJNFF {
+    position: absolute;
+    left: 50%;
+    height: 80px;
+    transform: translate(-50%, 0px);
+    border: none;
+    transition: left 0.15s ease-out, height 0.15s ease-out, width 0.15s ease-out, margin-top 0.15s ease-out;
+ }
+  .pfs__sc-7lof6w-0 ul[data-zg-section="reg-login"] {
+    display: none;
+  }
+  .pfs__sc-1elvxkv-1 { display: flex}
+  .pfs__thqlz5-0[data-display-agent="false"] {
+    margin-left: auto;
+  }
+  .pfs__sc-1etb9mm-1 { display: inline-block}
+   .pfs__sc-1elvxkv-2 li#manage-rentals .pfs__xukzw9-0 {
+    right: auto;
+    margin-left: -170px;
+    max-width: 400px;
+    min-width: 300px;
+    max-height: 80vh;
+    border: 1px solid rgb(216, 216, 216);
+    overflow: hidden auto;
+  }
+  .pfs__sc-1elvxkv-2 li#manage-rentals .pfs__xukzw9-1 {
+    padding: 0px;
+    min-width: 298px;
+  }
+  .pfs__sc-1elvxkv-2 li#manage-rentals .pfs__xukzw9-2{
+    overflow: auto;
+    display: block;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 28px;
+  }
+ .pfs__sc-1elvxkv-2 > li:hover .pfs__xukzw9-0, .pfs__sc-1elvxkv-2 > li:focus .pfs__xukzw9-0 {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.1s 0.4s, visibility 0.1s;
+  }
+  .ccTjfY > li {
+    padding-top: 20px;
+  }
+  .devUbu {
+    flex: 1 0 100%;
+    font-size: 14px;
+    color: rgb(42, 42, 51);
+    margin: 0px;
+    line-height: 40px;
+  }
+  .pfs__sc-1elvxkv-2 li#manage-rentals .pfs__c1z80u-0{
+    flex-basis: 100%;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    margin: 0px;
+    display: list-item;
+    padding-bottom: 20px;
+  }
+   .pfs__sc-1elvxkv-2 .pfs__c1z80u-0 > li:first-child {
+    margin-left: 0px;
+  }
+.pfs__sc-1elvxkv-2 li#manage-rentals li span {
+    color: rgb(0, 106, 255);
+    font-weight: normal;
   }
 }
